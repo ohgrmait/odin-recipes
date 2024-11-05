@@ -1,4 +1,46 @@
 * {
-  background-color: #fbffdb;
+  background-color: #fdf2ff;
   font-family: "Arial", "Verdana", sans-serif;
+  text-align: justify;
+}
+
+h1 {
+  color: hsl(337, 90%, 24%);
+  font-weight: 1000;
+  background-color: #f8d1ff;
+}
+
+.description,
+.ingredients,
+.steps {
+  color: #32013a;
+  font-weight: bold;
+}
+
+#image {
+  height: auto;
+  width: 290px;
+}
+
+.cassoulet.description,
+.lasagna.description,
+.mac-and-cheese.description {
+  background-color: #e3b4eb;
+}
+
+.cassoulet.ingredients,
+.lasagna.ingredients,
+.mac-and-cheese.ingredients {
+  background-color: #cea1d6;
+}
+
+.cassoulet.steps,
+.lasagna.steps,
+.mac-and-cheese.steps {
+  background-color: #9b75a1;
+}
+
+ul a {
+  color: rgb(31, 5, 5);
+  font-size: 18px;
 }
