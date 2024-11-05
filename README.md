@@ -17,11 +17,14 @@ A Basic Recipe Website
 ## Technologies
 - ***Git***
 - ***CLI***
+- ***CSS***
 - ***HTML***
 - ***GitHub***
 
 ## Self Reflections
 This whole process was very stimulating. I learned a lot of stuff like setting up the project, using the command line interface, the basics of git, foundational knowledge of HTML, the proper way to use commit messages, writing a README, and publishing/viewing the project on the web.
+
+An update: I updated my knowledge and added a bit of CSS. This included the use of different kinds of selectors, ways to group and chain selectors, and combinators. This also had various different CSS properties related to color, background-color, typography properties, etc. Lastly, I kept in mind the CSS cascade, inheritance and rule order.
 
 ## Acknowledgements
 - Credit for images and text goes to [Allrecipes](https://www.allrecipes.com/) and [Wikipedia](https://www.wikipedia.org/) respectively.
