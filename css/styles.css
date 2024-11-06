@@ -1,5 +1,14 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 * {
-  background-color: #fdf2ff;
   font-family: "Arial", "Verdana", sans-serif;
   text-align: justify;
 }
@@ -7,40 +16,104 @@
 h1 {
   color: hsl(337, 90%, 24%);
   font-weight: 1000;
-  background-color: #f8d1ff;
-}
-
-.description,
-.ingredients,
-.steps {
-  color: #32013a;
-  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(237, 242, 176), 0 0 0.2em rgb(182, 230, 204);
+  width: 350px;
+  margin: 24px auto;
 }
 
 #image {
   height: auto;
   width: 290px;
+  border-radius: 10% 30% 50% 70%;
 }
 
-.cassoulet.description,
-.lasagna.description,
-.mac-and-cheese.description {
-  background-color: #e3b4eb;
+.cassoulet,
+.lasagna,
+.mac-and-cheese {
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(101, 115, 21), 0 0 1em rgb(255, 255, 252), 0 0 0.2em rgba(236, 94, 11, 0.349);
 }
 
-.cassoulet.ingredients,
-.lasagna.ingredients,
-.mac-and-cheese.ingredients {
-  background-color: #cea1d6;
-}
-
-.cassoulet.steps,
-.lasagna.steps,
-.mac-and-cheese.steps {
-  background-color: #9b75a1;
+ul li {
+  list-style: none;
 }
 
 ul a {
   color: rgb(31, 5, 5);
   font-size: 18px;
+  text-decoration: none;
+}
+
+.main-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.title-container,
+.description-container,
+.ingredients-container,
+.steps-container {
+  text-align: center;
+  border-radius: 25% 10%;
+  border: 10px outset rgb(210, 111, 227);
+  padding: 24px;
+  margin-bottom: 8px;
+}
+
+.title-container {
+  border-bottom-style: none;
+  background-color: #b1b2e96b;
+}
+
+.description-container,
+.ingredients-container,
+.steps-container {
+  padding: 10px 40px;
+  border-top-style: none;
+}
+
+.description-container {
+  background-color: #e3e9b16b;
+  border-bottom-style: none;
+}
+
+.ingredients-container {
+  background-color: #e9b9b16b;
+  border-bottom-style: none;
+}
+
+.steps-container {
+  background-color: #b1e4e96b;
+}
+
+.recipe-container {
+  text-align: center;
+  border-radius: 25% 10%;
+  border: 10px outset rgb(230, 204, 176);
+  background-color: #f7f2ced1;
+  padding-top: 8px;
+  border-top-style: none;
+}
+
+span {
+  display: inline-block;
+  padding: 10px;
+  margin: 2px;
+  border: 5px outset rgb(130, 192, 130);
+  border-radius: 10% / 50%;
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(237, 242, 176), 0 0 0.2em rgb(182, 230, 204);
+  background-color: #d1da82d1;
+  border-top-style: none;
+}
+
+.image-container {
+  text-align: center;
+}
+
+#banner {
+  height: auto;
+  width: 30%;
+  padding: 8px;
+  border-radius: 10% / 10%;
 }
