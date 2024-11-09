@@ -51,4 +51,4 @@ This project shows a basic recipe website which consists of a main index page wi
 - Please do not hesitate to contact me at ***ohgrmait_02945*** on discord for any project queries.
 - This project will no longer be worked upon and no further support will be provided for this project.[^2]
 
-[^2]: The TOP strategy guide makes it clear to focus on the point of the assignment and that foundations isn't a strong portfolio generator, so I won't be wasting anymore time here.
+[^2]: The [TOP strategy guide](https://dev.to/theodinproject/learning-code-f56) makes it clear to [focus on the point of the assignment](https://dev.to/theodinproject/learning-code-f56#:~:text=Focus%20on%20the%20point%20of%20the%20assignment) and that [foundations isn't a strong portfolio generator](https://dev.to/theodinproject/learning-code-f56#:~:text=Foundations%20isn%E2%80%99t%20a%20strong%20portfolio%20generator), so I won't be wasting anymore time here.
