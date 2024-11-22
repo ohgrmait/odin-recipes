@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Odin Recipes</h1>
 
-  A Basic Recipe Website built using HTML and CSS ([live preview](https://ohgrmait.github.io/odin-recipes/))
+  A Basic Recipe Website ([live preview](https://ohgrmait.github.io/odin-recipes/))
 
   <img src="./img/cover.png" alt="Banner of the recipe website">
 </div>
